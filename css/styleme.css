@@ -1,0 +1,30 @@
+body {
+    background-color: grey;
+}
+li {
+    display: inline;
+    border: 1px solid #000;
+    width: 100px;
+    text-align: center;
+}
+.navbar {
+    margin: auto;
+    width: 50%;
+    height: 30px;
+    background-color: indigo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+a {
+    color: khaki;
+}
+
+li:hover{
+    background-color: lightblue;
+}
+.meniu-center {
+    margin: auto;
+    width: 50%;
+}
