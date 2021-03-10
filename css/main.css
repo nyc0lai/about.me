@@ -1,5 +1,14 @@
 body {
+    margin: 0;
     background-color: grey;
+}
+
+.main {
+    border: 1px solid #000;
+    /*position: relative;*/
+    width: 75%;
+    height: 200px;
+    margin: auto;
 }
 li {
     display: inline;
@@ -8,14 +17,7 @@ li {
     text-align: center;
 }
 .navbar {
-    margin: auto;
-    width: 50%;
-    height: 30px;
-    background-color: indigo;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
+    
 }
 a {
     color: khaki;
