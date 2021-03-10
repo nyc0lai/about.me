@@ -6,33 +6,22 @@ body {
 
 .main {
     border: 1px solid #000;
-    /*position: relative;*/
+    position: relative;
     width: 75%;
     height: 200px;
     margin: auto;
 }
 
-.footer-img{
-    overflow: hidden;
-    z-index: 0;
-}
-li {
-    display: inline;
-    border: 1px solid #000;
-    width: 100px;
-    text-align: center;
-}
-.navbar {
-    
-}
 a {
-    color: khaki;
+    text-decoration: none;
+    display: inline-block;
+    background-color: bisque;
+    padding: 15px 32px;
+    text-align: center;
+    font-family: Forte, Geneva, Tahoma, sans-serif;
+    color: chocolate;
+    font-size: 16px;
 }
-
-li:hover{
-    background-color: lightblue;
-}
-.meniu-center {
-    margin: auto;
-    width: 50%;
+a:hover {
+    font-size: 18px ;
 }
